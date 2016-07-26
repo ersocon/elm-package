@@ -11,6 +11,7 @@ To install a library run:
 ```bash
 elm-package install elm-lang/html         # Install latest version
 elm-package install elm-lang/html 1.0.0   # Install version 1.0.0
+elm-package install --yes                 # Install with auto confirmation
 ```
 
 `elm-package` is sandboxed by default, so the downloaded package will be placed
